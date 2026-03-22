@@ -1,0 +1,14 @@
+# ── CIFAR-100 Image Classifier — Python dependencies ────────────────────────
+# Install with: pip install -r requirements.txt
+ 
+# Web UI
+streamlit>=1.35.0
+ 
+# Deep learning
+tensorflow>=2.16.0          # 2.16+ required for Keras 3 compatibility
+ 
+# Image processing
+Pillow>=10.0.0
+ 
+# Numerical computing — must stay <2.0 if using TF < 2.16, >=1.26 for TF 2.16+
+numpy>=1.26.0,<2.0.0

@@ -5,3 +5,6 @@ CIFAR_100_Image_Classification/
 ├── model.py              # load model, preprocess, predict
 ├── styles.py             # all CSS
 └── components.py         # reusable HTML/UI render functions
+
+# install the required libraries/packages using requirements file
+pip install -r requirements.txt

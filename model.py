@@ -7,6 +7,8 @@ from PIL import Image
 from classes import CIFAR100_CLASSES
 from config import INPUT_SIZE, TOP_K
 
+import warnings
+warnings.filterwarnings("ignore")
 
 @st.cache_resource(show_spinner=False)
 def load_model(path: str):

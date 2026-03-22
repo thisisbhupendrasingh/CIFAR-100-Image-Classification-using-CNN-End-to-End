@@ -27,6 +27,9 @@ from components import (
     render_result,
 )
 
+import warnings
+warnings.filterwarnings("ignore")
+
 # ── Page config (must be the very first Streamlit call) ──────────────────────
 st.set_page_config(
     page_title="CIFAR-100 Classifier",
